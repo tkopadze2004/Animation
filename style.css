@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first-box {
+  width: 175px;
+  height: 130px;
+  background-color: #c7f0c0;
+}
+.second-box {
+  width: 175px;
+  height: 130px;
+  background-color: #5a4646;
+}
+.third-box {
+  width: 175px;
+  height: 130px;
+  background-color: #95b8cc;
+}
+.fourth-box {
+  width: 175px;
+  height: 130px;
+  background-color: #e9c1c1;
+}
+
+.boxes div {
+  position: relative;
+  margin: 20px;
+  animation: animation 10s infinite alternate;
+}
+
+@keyframes animation {
+  from {
+    width: 199px;
+    height: 154px;
+  }
+  50% {
+    width: 96.99%;
+    height: 154px;
+    left: 0;
+  }
+  to {
+    width: 261px;
+    height: 154px;
+    left: 80%;
+  }
+}
